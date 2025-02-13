@@ -144,7 +144,7 @@
       </p>
       <IconHeart class="heart" @click="score++" :class="{redHeart:score>=105}"/>
 
-      <img v-if="score===105" class="main__img" src="/sticker.webp" alt=")">
+      <img v-if="score>=105" class="main__img" src="/sticker.webp" alt=")">
     </div>
   </section>
 </template>
@@ -202,6 +202,7 @@
 }
 .redHeart{
   color: #ff0000;
+  animation: none;
 }
 
 
