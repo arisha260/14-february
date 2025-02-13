@@ -1,0 +1,17 @@
+:root {
+  // base
+  --font-family: "Carlo Melow", sans-serif;
+  --font-family1: "Carlo Melow Sans", sans-serif;
+  --font-family2: "Pepperoni", sans-serif;
+  --font-family3: "Zaychik", sans-serif;
+  --font-family4: "Shakyhands", sans-serif;
+  --font-family5: "Kosko", sans-serif;
+  --font-family6: "Fibberish", sans-serif;
+  --content-width: 1170px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --light-color: #fff;
+  --dark-color: #000;
+}
